@@ -2,7 +2,7 @@ import {React,useState} from 'react'
 import Topic_box from '../../components/Topics/Topics.jsx'
 import list_topics from '../../list_topics.json'
 import Topics_page  from '../../components/Topics_page/Topics_page.jsx'
-import './Home.css'
+
 
 
 export const Home = () => {
