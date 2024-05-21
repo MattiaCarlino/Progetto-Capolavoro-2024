@@ -1,17 +1,9 @@
-import React from 'react';
+import React from 'react'
 
-const Topics= ({topics, click}) => {
-
+export const Side_bar = () => {
   return (
-    <article className='topic-box'>
-      <img src={topics.image} alt={topics.title_topics} className='topic-img'/>
-      <div className='topic-header'>
-      </div>
-      <h2>{topics.title_topics}</h2>
-      <p>{topics.description}</p>
-      <button onClick={click}> Leggi argomento </button>
-    </article>
-  );
-};
+    <div>Side_bar</div>
+  )
+}
 
-export default Topics;
+export default Side_bar;

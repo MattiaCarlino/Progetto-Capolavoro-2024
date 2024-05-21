@@ -11,7 +11,7 @@
   width: 100%;
 }
 
-.left-section {
+.list-topics{
   flex: 2;
   display: grid;
   grid-template-columns: repeat(3, 1fr);

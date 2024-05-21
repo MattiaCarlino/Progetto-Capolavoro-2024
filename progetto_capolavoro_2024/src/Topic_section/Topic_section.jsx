@@ -6,3 +6,5 @@ export const Topic_section = () => {
     <div>Topic_section</div>
   )
 }
+
+export default Topic_section;

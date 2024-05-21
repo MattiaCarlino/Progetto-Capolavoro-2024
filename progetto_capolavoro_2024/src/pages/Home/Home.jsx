@@ -1,6 +1,6 @@
 import {React,useState} from 'react' 
-import Topic_box from '../../Topic_section/Side_bar/Side_bar.jsx'
-import list_topics from '../../list_topics.json'
+import Topic_box from '../../components/Topic_box/Topic_box.jsx'
+import list_topics from '../../macro_topics.json'
 import './Home.css'
 
 export const Home = () => {
@@ -15,23 +15,16 @@ export const Home = () => {
       <p> descrizione del progetto, come è diviso e organizzato</p>
       </div>
       <div className='title-main-section'><h1> Argomenti </h1></div>
-      {!isClicked && (<section className='main-section'>
-        <div className='left-section'>
+      <section className='main-section'>
+        <div className='list-topics'>
           {list_topics.map(topics => (
-          <Topic_box
+            <Topic_box
             key={topics.id}
             topics={topics}
-            click = {setClicked(true)}
-          />
+            />
           ))}
-        </div>
-      </section>)}
-
-    {isClicked &&(
-      <section>
-        <h1> FERRI MI HA ROTTO IL CODICE GRAZIE FERRI : / </h1>
-
-      </section>)}
+        </div>  
+      </section>
     </div>
     )
 }
