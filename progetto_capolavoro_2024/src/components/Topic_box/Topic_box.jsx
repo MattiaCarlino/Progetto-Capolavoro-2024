@@ -1,5 +1,6 @@
 import React from 'react';
 import './Topic_box.css'
+import { Link } from 'react-router-dom';
 
 const Topic_box = ({topics}) => {
 
@@ -10,7 +11,13 @@ const Topic_box = ({topics}) => {
       </div>
       <h2>{topics.title_topics}</h2>
       <p>{topics.description}</p>
-      
+      <Link to={topics.path_topic}>
+        <button>
+          Leggi di più
+        </button>
+      </Link>
+
+
     </article>
   );
 };
