@@ -17,10 +17,10 @@ export const Home = () => {
       <div className='title-main-section'><h1> Argomenti </h1></div>
       <section className='main-section'>
         <div className='list-topics'>
-          {list_topics.map(topics => (
+          {list_topics.map((topics, index) => (
             <Topic_box
-            key={topics.id}
-            topics={topics}
+              key={index}
+              topics={topics}
             />
           ))}
         </div>  

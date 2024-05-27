@@ -1,5 +1,6 @@
 import React from 'react';
 import './Topic_box.css'
+import {Link} from 'react-router-dom'
 
 const Topic_box = ({topics}) => {
 
