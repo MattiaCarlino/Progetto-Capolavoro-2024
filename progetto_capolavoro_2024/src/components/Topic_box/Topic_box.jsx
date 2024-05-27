@@ -11,14 +11,18 @@ const Topic_box = ({topics}) => {
       </div>
       <h2>{topics.title_topics}</h2>
       <p>{topics.description}</p>
-      <Link to={topics.path_topic}>
-        <button>
-          Leggi di più
-        </button>
-      </Link>
+      
+        
       
     </article>
   );
 };
 
 export default Topic_box;
+ /*
+      <Link to={topics.path_topic}>
+        <button>
+          Leggi di più
+        </button>
+      </Link>
+  */

@@ -10,11 +10,9 @@ export const Home = () => {
 
   return (
     <div id = "homepage" className='wrapper2'>
-      <div className='web-app-name'><h1> Nome web app </h1></div>
+      <div className='web-app-name'><h1> Algoritmi di Routing & Autonomous System </h1></div>
       <div className='description'>
-      <p> descrizione del progetto, come è diviso e organizzato</p>
       </div>
-      <div className='title-main-section'><h1> Argomenti </h1></div>
       <section className='main-section'>
         <div className='list-topics'>
           {list_topics.map((topics, index) => (
