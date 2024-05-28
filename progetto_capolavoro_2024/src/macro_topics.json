@@ -9,21 +9,21 @@
     {
         "id": 2,
         "image": "https://signal.avg.com/hs-fs/hubfs/Blog_Content/Avg/Signal/AVG%20Signal%20Images/What%20is%20TCPIP%20(Signal)/TCP-IP.png?width=1320&name=TCP-IP.png",
-        "title_topics": "stack TCP/IP",
+        "title_topics": "Stack TCP/IP",
         "description": "Lo stack TCP/IP è una serie di protocolli di comunicazione che vengono utilizzati per collegare dispositivi su una rete.",
         "path_topic": "/Stack_TCP_IP"
     },
     {
         "id": 3,
         "image": "https://www.ipxo.com/app/uploads/2022/04/Featured-820x460.jpg",
-        "title_topics": "Funzione di Routing del livello Network",
+        "title_topics": "Funzione di Routing del Livello Network",
         "description": "La funzione di routing del livello di rete coinvolge il processo di selezione del percorso ottimale per la trasmissione dei dati da una sorgente a una destinazione attraverso una rete.",
         "path_topic": "/Funzioni_routing"
     },
     {
         "id": 4,
         "image": "https://media.geeksforgeeks.org/wp-content/uploads/20230316100154/Types-of-Routing-Algorithm.png",
-        "title_topics": "Algoritmi di routing",
+        "title_topics": "Algoritmi di Routing",
         "description": "Gli algoritmi di routing sono utilizzati nei router per determinare il percorso ottimale per la trasmissione dei dati attraverso una rete.",
         "path_topic": "/Algoritmi_routing"
     },

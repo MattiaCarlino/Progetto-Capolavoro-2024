@@ -10,6 +10,7 @@ article {
     justify-self: auto;
     justify-content: baseline;
     transition: background-color 0.3s;
+    background-color: rgba(229, 226, 226, 0.403);
     
     
   }
@@ -65,7 +66,7 @@ article {
 
   .topic-box:hover{
 
-    background-color: rgb(241, 237, 237);
+    background-color: rgb(220, 216, 216);
     cursor: pointer;
 
 
