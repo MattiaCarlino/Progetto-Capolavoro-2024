@@ -21,7 +21,6 @@ article {
     margin-bottom: 10px;
     object-fit: cover; /* Scala l'immagine in modo uniforme */
     justify-items: auto;
-    box-shadow: 10px 10px 10px #76885B;
 
   
   }

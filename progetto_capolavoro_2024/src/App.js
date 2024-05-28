@@ -13,7 +13,7 @@ import Glossario_bibliografia from './pages/Topic_pages/Glossario.jsx'
 
 function App() {
   return (
-    <div id='App'>
+    <div id='App' className='montserrat-font'>
       <BrowserRouter>
         <Header />
         <Routes>
