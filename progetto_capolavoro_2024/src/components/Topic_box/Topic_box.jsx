@@ -11,9 +11,7 @@ const Topic_box = ({topics}) => {
       </div>
       <h2>{topics.title_topics}</h2>
       <p>{topics.description}</p>
-      
-        
-      
+
     </article>
   );
 };
