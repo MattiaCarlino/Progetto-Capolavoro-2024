@@ -10,7 +10,7 @@ article {
     justify-self: auto;
     justify-content: baseline;
     transition: background-color 0.3s;
-    background-color: rgba(229, 226, 226, 0.403);
+    background-color: rgb(255, 255, 255);
     
     
   }
@@ -21,6 +21,8 @@ article {
     margin-bottom: 10px;
     object-fit: cover; /* Scala l'immagine in modo uniforme */
     justify-items: auto;
+    box-shadow: 10px 10px 10px #76885B;
+
   
   }
   
@@ -59,14 +61,14 @@ article {
   .topic-box{
 
     border-radius: 10%;
-    border: 1px solid #FF8A08;
+    border: 3px solid #627254;
 
 
   }
 
   .topic-box:hover{
 
-    background-color: rgb(220, 216, 216);
+    background-color: rgb(218, 214, 214);
     cursor: pointer;
 
 

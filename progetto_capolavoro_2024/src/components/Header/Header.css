@@ -4,10 +4,10 @@ body {
 }
 
 header {
-  background-color: #FF6500;
+  background-color: #76885B;
   padding: 20px;
   height: 50px;
-  box-shadow:10px 10px 10px rgb(221, 219, 219);
+  box-shadow:0px  5px 10px rgb(255, 255, 255);
   
 }
 
@@ -30,5 +30,5 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #FFD700; /* Giallo dorato per effetto hover */
+  color: #DDDDDD /* Giallo dorato per effetto hover */
 }

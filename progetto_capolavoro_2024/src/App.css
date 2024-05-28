@@ -5,7 +5,11 @@
 
 body {
   margin: 0;
-  background-color: rgb(255, 255, 255);  
+  /*background-color: rgb(255, 255, 255);
+  background: url(desktop-wallpaper-high-resolution-green-background-simple-green.jpg);*/
+  background: url(1600w-DOfVkpm1UIU.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .wrapper-column{

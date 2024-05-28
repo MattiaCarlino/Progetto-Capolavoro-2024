@@ -49,4 +49,11 @@
 
 .web-app-name{
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 10%;
+  border: 3px solid #627254;
+  background-color: #ffffff;
+
+
 }
