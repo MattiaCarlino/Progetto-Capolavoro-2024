@@ -3,21 +3,23 @@
   /*background-color: #163020;*/
   color: #fff;
   padding: 30px 0;
-  padding-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto;
   padding: 0 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 
 .footer-content {
   display: flex;
   align-items: center;
+  margin-right: 30px;
 }
 
 .footer-logo img {
