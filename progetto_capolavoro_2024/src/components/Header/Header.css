@@ -1,8 +1,8 @@
 header {
     background-color: #ec833c;
-    box-shadow: 0 4px 8px 0  #ec833c; padding: 5px 10px;
+    padding: 5px 10px;
     color: #000000;
-    padding: 10px;
+    padding: 25px;
     display: flex;
     justify-content: space-between;
     align-content: space-around;
