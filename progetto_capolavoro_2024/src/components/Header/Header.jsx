@@ -9,7 +9,6 @@ export const Header = () => {
         <nav>
           <ul>
             <li><Link to="/">Home</Link></li>
-            <li><Link to="/About_us">About us</Link></li>
           </ul>
         </nav>
       </div>
