@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 export const Footer = () => {
   return (
     <footer class="footer" >
-    <div class="container">
+    <div class="container" id="finePagina">
         <div class="footer-content">
             <div class="footer-logo">
                 <a href='https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.isarchimede.edu.it/&ved=2ahUKEwj5kIS4z7CGAxX7gP0HHUi8DeoQFnoECAYQAQ&usg=AOvVaw1mmBG6DM-2L1eVCzcFwoKT' target='_blank'>
@@ -16,8 +16,6 @@ export const Footer = () => {
             <div class="footer-links">
                 <ul>
                     <li><Link to="/">Home</Link></li>
-                    <li> | </li>
-                    <li><Link to="/About_us">About us</Link></li>
                 </ul>
             </div>
             
